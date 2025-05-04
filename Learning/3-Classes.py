@@ -88,3 +88,24 @@ class FileStream(Stream):
 # namedtuple is a class that is used to create immutable objects
 Point = namedtuple("Point", ["x", "y"])  # Named Tuple
 p1 = Point(x=1, y=2)
+##################################################################
+
+
+# remember that it is important to add documentation for some modules
+#  that you want yo share them with others.
+# the structure of the documentation is like this:
+"""
+One line description of the module.
+
+A more detailed description of the module.
+"""
+
+
+class pdf2txt(ABC):
+    """Abstract class for PDF to text conversion."""
+
+    def read_pdf(self, pdf_path):
+        """
+        Read a PDF file and return its content as a string.
+        """
+        pass
