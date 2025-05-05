@@ -1,3 +1,9 @@
+# The code is designed to "reverse" SHA-256 hash values back to their
+# original 4-digit numbers.
+# This is essentially a simple password cracking technique
+# for a very specific case,
+# when you know the passwords are 4-digit numbers.
+
 import hashlib
 import csv
 
