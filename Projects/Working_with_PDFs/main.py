@@ -1,3 +1,9 @@
+# The code shows how to:
+#   1- Open and read a PDF file
+#   2- Rotate a page in the PDF
+#   3- Save the rotated page as a new PDF file
+#   4- Merge multiple PDF files into a single combined PDF
+
 import PyPDF2
 with open("c:/Users/sadad/Desktop/Python-Basics/Projects/Working_with_PDFs/Git_Summary.pdf", "rb") as first_file:
     reader = PyPDF2.PdfReader(first_file)
